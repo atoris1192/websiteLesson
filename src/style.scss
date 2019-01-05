@@ -48,6 +48,8 @@ header {
     text-align: center;
     font-weight: normal;
     font-size: 24px;
+    margin-bottom: 60px;
+    margin-top: 0;
   &::after {
     content: attr(data-subtitle);
     display: block;
@@ -56,13 +58,17 @@ header {
     padding-top: 10px;
   }
 }
-.feature {
-  h1 {
-    font-weight: normal;
-    font-size: 18px;
+.feature { // h1, p の設定
+  overflow: hidden;
+  &:not(:last-child) {
+    margin-bottom: 60px;
   }
   .desc {
     width: 360px;
+    h1 {
+      font-weight: normal;
+      font-size: 18px;
+    }
   }
   &:nth-of-type(odd) .desc {
     float: right;
