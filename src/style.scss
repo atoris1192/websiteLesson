@@ -27,4 +27,16 @@ header {
     margin-top: 0;
     font-weight: normal;
   }
+  .container {
+    position: relative;
+    width: 820px;
+    // background-color: pink;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 }
