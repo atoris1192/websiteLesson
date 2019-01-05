@@ -18,21 +18,25 @@ body {
     opacity: 1.0;
   }
 }
-header {
-  color: #fff;
+.container {
+  width: 820px;
+  // background-color: pink;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.orange_bg {
   // background: url(__direname + '/src/img/bg.png');
   background: url('./img/bg.png');
   background-size: cover;
+}
+header {
+  color: #fff;
   h1 {
     margin-top: 0;
     font-weight: normal;
   }
   .container {
     position: relative;
-    width: 820px;
-    // background-color: pink;
-    margin: 0 auto;
-    padding: 60px 0;
   }
   img {
     position: absolute;
