@@ -56,3 +56,20 @@ header {
     padding-top: 10px;
   }
 }
+.feature {
+  h1 {
+    font-weight: normal;
+    font-size: 18px;
+  }
+  .desc {
+    width: 360px;
+  }
+  &:nth-of-type(odd) .desc {
+    float: right;
+    padding-left: 40px;
+  }
+  &:nth-of-type(even) .desc {
+    float: left;
+    padding-right: 40px;
+  }
+}
