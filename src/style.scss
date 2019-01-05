@@ -89,14 +89,22 @@ header {
       position: relative;
       width: 250px;
       background-color: #fff;
+      box-sizing: border-box;
+      padding: 60px 40px 25px;
       img {
         border-radius: 50%;
         position: absolute;
-        top: 0;
+        top: -55px;
         left: 0;
         right: 0;
         margin: 0 auto;
         border: 10px solid #fff;
+      }
+      h1 {
+        font-weight: normal;
+        text-align: center;
+        font-size: 18px;
+
       }
     }
 
