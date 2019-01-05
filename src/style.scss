@@ -44,13 +44,11 @@ header {
     bottom: 0;
   }
 }
-section.features {
-  h1 {
+.section-title {
     text-align: center;
     font-weight: normal;
     font-size: 24px;
-  }
-  h1::after {
+  &::after {
     content: attr(data-subtitle);
     display: block;
     font-size: 16px;
